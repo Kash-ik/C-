@@ -7,9 +7,5 @@ int main() {
     int n, i, number;
     cout << "Введите значения n и i\n";
     cin >> n >> i;
-    cout << "Введите номер задания\n"; 
-    cin >> number;
-    
-    if (number == 1) {
-        cout << (1 << i) << endl;
-    }
+    cout << (1 << i) << endl;
+}
